@@ -183,7 +183,7 @@ midi-percussion: o4 c8 c+ d d+ e
 (defn random-bongos
   [ticks vol-min vol-max]
   [(octave 4)
-  (set-duration 0.25) ; 16th notes
+  (set-note-length 16) ; 16th notes
   (let [notes     (-> #{[:c] [:c :sharp] [:d] [:d :sharp] [:e]}
                    (->> (map #(note (apply pitch %))))
                    (conj (pause)))
