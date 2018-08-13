@@ -1,0 +1,23 @@
+# "cram" rhythmic notation
+
+# ex. 1
+clavinet "clav-1":
+  (tempo 100) (quant 100)
+  c
+  {c d}
+  {c d e}
+  {c d e f}
+  {c d e f g}
+  {c d e f g a}
+  {c d e f g a b}
+  > c
+
+# ex. 2
+clavinet "clav-2":
+  (tempo 100) (quant 100)
+  {c d}1
+  {c d}2 *2
+  {c d}4 *4
+  {c d}8 *8
+  c4
+

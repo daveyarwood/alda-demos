@@ -1,0 +1,14 @@
+# repeats
+
+electric-guitar-clean:
+  o2 g*4
+
+electric-guitar-clean:
+  o3 [ c/e/g ]*4
+
+electric-guitar-clean:
+  o4 {c d e f g}*4 c
+
+electric-guitar-distorted:
+  [ o2 f+8 f+16 f+ > f+ < f+8 f+16 ]*4
+  f+8

@@ -1,0 +1,11 @@
+# note duration expressed in seconds/milliseconds
+
+# ex. 1
+music-box:
+  # a note every 2 seconds
+  c2s c c c
+
+# ex. 2
+music-box:
+  # an interesting rhythm with arbitary durations in milliseconds
+  [ c237ms c42ms c1037ms c500ms c600ms ] *4

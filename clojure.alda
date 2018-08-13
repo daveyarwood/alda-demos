@@ -14,6 +14,17 @@ piano: o4 c1/g/>d/e
     (note (pitch :e))))
 
 
+
+
+
+
+
+
+
+
+
+
+
 ### the `note` function:
 (note (pitch :c))
 (note (pitch :c) (duration (note-length 4)))

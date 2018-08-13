@@ -1,0 +1,5 @@
+# accidentals
+
+piano: o4 c4 < b- a g f+
+piano: o4 g+4 f+ e+ d+ c++
+piano: o4 c++++-+-+-+ # (a.k.a. E natural)

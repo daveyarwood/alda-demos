@@ -1,0 +1,13 @@
+# per-instrument vs. global attributes
+
+trumpet "tpt1":
+  (tempo 200) # only applies to trumpet
+  o4 c8 d e f g a b > c4.
+trombone "tbn1":
+  o3 e8 f g a b > c d e4.
+
+trumpet "tpt2":
+  (tempo! 200) # applies to all instruments
+  o4 c8 d e f g a b > c4.
+trombone "tbn2":
+  o3 e8 f g a b > c d e4.

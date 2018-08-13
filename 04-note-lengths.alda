@@ -1,0 +1,9 @@
+# note lengths
+
+piano:
+  o4
+  c4                 # quarter
+  c8 c               # 2 eighths
+  c16 c c c          # 4 sixteenths
+  c32 c c c c c c c  # 8 thirty-seconds
+  c1                 # whole note

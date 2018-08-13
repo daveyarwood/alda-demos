@@ -1,0 +1,9 @@
+# markers
+
+trumpet:
+  (tempo! 120)
+  o4 c8 d e f g a b > %lastNote c4.~2
+trombone:
+  o3 e8 f g a b > c d e4.~2
+tuba:
+  @lastNote o2 c4.~2
