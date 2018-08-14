@@ -1,38 +1,7 @@
-## inline clojure code
-
-### this...
-piano: o4 c1/g/>d/e
-
-### ...is equivalent to this:
-(part "piano"
-  (octave 4)
-  (chord
-    (note (pitch :c))
-    (note (pitch :g))
-    (octave :up)
-    (note (pitch :d))
-    (note (pitch :e))))
-
-
-
-
-
-
-
-
-
-
-
-
-
-### the `note` function:
-(note (pitch :c))
-(note (pitch :c) (duration (note-length 4)))
-
-### oh look, bongos
+# oh look, bongos
 midi-percussion: o4 c8 c+ d d+ e
 
-### a function that generates random bongo patterns
+# a function that generates random bongo patterns
 (defn random-bongos
   [ticks vol-min vol-max]
   [(octave 4)
