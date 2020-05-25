@@ -1,29 +1,19 @@
 Hi everyone!
 
-Since 2012, I've been working on Alda, a markup-like programming language for
-music composition. Think "text in, music out":
+Since 2012, I've been working on Alda, a markup-like programming language for music composition. Think "text in, music out":
 
 ```
 piano: c8 d e f g a b > c
 ```
 
-I designed the language to be easy to learn, especially for people with little
-to no programming experience. At the same time, I've made the language runtime
-flexible enough to be driven from the outside; this makes it possible for
-programmers to do some really fun and interesting things in the realm of
-algorithmic composition. I've written a lot of generative music by writing
-Clojure programs that drive Alda.
+I designed the language to be easy to learn, especially for people with little to no programming experience. At the same time, I've made the language runtime flexible enough to be driven from the outside; this makes it possible for programmers to do some really fun and interesting things in the realm of algorithmic composition. I've written a lot of generative music by writing Clojure programs that drive Alda.
 
-Live A/V setup is hard, so I've taken the easy way out by sharing with you a
-5-minute excerpt of a longer talk that I gave at Strange Loop last year. The
-excerpt starts at 5:30 (this link should take you directly there) and ends
-around 10:20 when I start talking about architecture.
+Live A/V setup is hard, so I've taken the easy way out by sharing with you a 5-minute excerpt of a longer talk that I gave at Strange Loop last year. The excerpt starts at 5:30 (this link should take you directly there) and ends around 10:20 when I start talking about architecture.
 
 https://youtu.be/6hUihVWdgW0?t=330 (5:30 - 10:20)
 
 For more about Alda and to try it out for yourself, visit: https://alda.io
 
-To see and hear some examples of generative music that I've written with Alda,
-check out: https://blog.djy.io/out-of-the-blue/
+To see and hear some examples of generative music that I've written with Alda, check out: https://blog.djy.io/out-of-the-blue/
 
 I'm happy to answer any questions you might have!
